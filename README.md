@@ -23,7 +23,15 @@ STEP 7: Use cross tabulation method to quantitatively analyze the relationship b
 STEP 8: Use heatmap method of representation to show relationships between two variables, one plotted on each axis.
 
 ## CODING AND OUTPUT
-        <<INCLUDE YOUR CODING AND OUTPUT SCREENSHOTS>>
+            
+            import pandas as pd
+            import seaborn as sns
+
+            df=pd.read_csv("titanic_dataset.csv")
+            df
+
+            <img width="1326" height="514" alt="image" src="https://github.com/user-attachments/assets/fc49f6c0-41a1-46fa-a72f-03a08f54ed19" />
+
 
 # RESULT
-        <<INCLUDE YOUR RESULT HERE>>
+        Thus the given titanic dataset is analysed through exploratory data analysis.
